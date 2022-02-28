@@ -1,0 +1,117 @@
+<!-- It was a fun exercise. It had me awake at 4am thinking of solutions (unfortunately, that solution didn't work out either)
+I decided to go for the :before and :after in a div that matches the height of the card div so that the connectors woudl 
+maintain a standard size and position even if the card size changed. I would like to have used an SVG file, however, even 
+though I am experienced with image editing, I didn't have enough knowledge to produce an SVG that worked.
+I might have been better using @media rules and then could have created the connector in its own div. 
+Obviously, there is a problem with the end of the row showing a rogue connector. I'm not sure if there is a css hidden option.    -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"/>
+
+    <title>Primate</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="card">
+          <h3>
+            Positivity breeds success. Negativity wouldn't know anything about
+            it.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="connector"></div>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <h3>
+            Positivity breeds success. Negativity wouldn't know anything about
+            it.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="connector"></div>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <h3>
+            Positivity breeds success. Negativity wouldn't know anything about
+            it.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="connector"></div>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <h3>
+            Positivity breeds success. Negativity wouldn't know anything about
+            it.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="connector"></div>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <h3>
+            Positivity breeds success. Negativity wouldn't know anything about
+            it.
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="connector"></div>
+      </div>
+    </div>
+  </body>
+</html>
